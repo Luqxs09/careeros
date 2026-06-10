@@ -204,11 +204,11 @@ function getCharacter(sceneKey: SceneKey) {
     return "/characters/student15.png";
   }
 
-  if (sceneKey === "spm") return "/characters/student17.png";
-  if (sceneKey === "engineering") return "/characters/university19.png";
-  if (sceneKey === "internship") return "/characters/intern22.png";
+  if (sceneKey === "spm") return "/Characters/student17.png";
+  if (sceneKey === "engineering") return "/Characters/university19.png";
+  if (sceneKey === "internship") return "/Characters/intern22.png";
 
-  return "/characters/engineer25.png";
+  return "/Characters/engineer25.png";
 }
 
 function getProgress(age: string) {
