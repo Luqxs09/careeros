@@ -201,7 +201,7 @@ function getCharacter(sceneKey: SceneKey) {
     sceneKey === "tvet" ||
     sceneKey === "arts"
   ) {
-    return "/characters/student15.png";
+    return "/Characters/student15.png";
   }
 
   if (sceneKey === "spm") return "/Characters/student17.png";
